@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="formulario-div">
+    <form action="post" class="form-cadastro">
+        
+    <h1>Formulario de cadastro</h1> 
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required >
+
+        <label for="idade">Idade</label>
+        <input type="date" name="dataNasc" id="dataNasc" lang="pt-BR" required>
+
+        <label for="idade">Telefone</label>
+        <input type="text" name="telefone" id="telefone" required>
+
+        <label for="name">E-mail</label>
+        <input type="text" name="email" id="email">
+
+        <label for="idade">Endereço</label>
+        <textarea name="endereco" id="endereco"></textarea>
+
+        <button type="submit" id="Btn-Enviar" > Enviar </button>
+
+       
+    </form>
+</div>
+<div id="table-div">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data Nasc</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody id="tableUser">
+           
+        </tbody>
+    </table>
+</div>
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="fireInit.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

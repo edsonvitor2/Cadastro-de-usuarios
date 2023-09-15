@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #c6c6c6;
+}
+
+#formulario-div{
+    float: left;
+    width: 30%;
+    margin: 15px;
+}
+#table-div{
+    float: left;
+    width: 65%;
+    margin: 15px;
+}
+
+form{
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 5px;
+}
+
+label{
+    margin: 10px;
+}
+
+textarea,input{
+    width: 95%;
+    margin: 10px;
+    font-size: 22px;
+}
+
+button{
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+table{
+    width: 100%;
+    border: solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+th,td{
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+
+}
